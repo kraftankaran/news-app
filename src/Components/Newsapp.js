@@ -8,7 +8,7 @@ const Newsapp = () => {
   const [hasMore, setHasMore] = useState(true);
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = 'fcb70105ef224a6b8bdb3be9fa19e426';
+  const API_KEY = '2b80e19ab201413c82639c8180c70d4d';
 
   const getData = async (query = search, pageNum = 1, append = false) => {
     try {
